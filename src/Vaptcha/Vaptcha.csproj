@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="../../common.props" />
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <RootNamespace />
+    </PropertyGroup>
+
+    <PropertyGroup>
+      <PackageId>vaptcha.sdk.dotnetcore</PackageId>
+      <PackageVersion>$(NugetVersion)</PackageVersion>
+      <Authors>Akini Xu</Authors>
+      <Owners>Akini Xu</Owners>
+      <Description>vaptcha sdk dotnetcore </Description>
+      <PackageTags>vaptcha,dotnetcore,sdk</PackageTags>
+      <RepositoryType>git</RepositoryType>
+      <PackageProjectUrl>https://github.com/iBestRead/VAPTCHA-dotnetcore-v3</PackageProjectUrl>
+      <RepositoryUrl>https://github.com/iBestRead/VAPTCHA-dotnetcore-v3</RepositoryUrl>
+      <ProjectUrl>https://github.com/iBestRead/VAPTCHA-dotnetcore-v3</ProjectUrl>
+      <PackageReleaseNotes>
+        1. Downgrade dependencies 3.1.0.
+      </PackageReleaseNotes>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.5" />
+        <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="3.1.5" />
+        <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.5" />
+        <PackageReference Include="Microsoft.Extensions.Http" Version="3.1.5" />
+        <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    </ItemGroup>
+
+</Project>
