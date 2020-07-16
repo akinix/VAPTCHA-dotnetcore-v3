@@ -18,9 +18,6 @@
       <PackageProjectUrl>https://github.com/iBestRead/VAPTCHA-dotnetcore-v3</PackageProjectUrl>
       <RepositoryUrl>https://github.com/iBestRead/VAPTCHA-dotnetcore-v3</RepositoryUrl>
       <ProjectUrl>https://github.com/iBestRead/VAPTCHA-dotnetcore-v3</ProjectUrl>
-      <PackageReleaseNotes>
-        1. Downgrade dependencies 3.1.0.
-      </PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
