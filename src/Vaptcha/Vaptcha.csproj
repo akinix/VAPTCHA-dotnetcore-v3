@@ -1,32 +1,32 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-    <Import Project="../../common.props" />
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <NoWarn>$(NoWarn);CS1591;NU1603</NoWarn>
+    <RootNamespace />
+  </PropertyGroup>
 
-    <PropertyGroup>
-        <TargetFramework>netstandard2.0</TargetFramework>
-        <RootNamespace />
-    </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>vaptcha.sdk.dotnetcore</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Akini Xu</Authors>
+    <Owners>Akini Xu</Owners>
+    <Description>vaptcha sdk dotnetcore </Description>
+    <PackageTags>vaptcha,dotnetcore,sdk</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/iBestRead/VAPTCHA-dotnetcore-v3</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/iBestRead/VAPTCHA-dotnetcore-v3</RepositoryUrl>
+    <ProjectUrl>https://github.com/iBestRead/VAPTCHA-dotnetcore-v3</ProjectUrl>
+  </PropertyGroup>
 
-    <PropertyGroup>
-      <PackageId>vaptcha.sdk.dotnetcore</PackageId>
-      <PackageVersion>$(NugetVersion)</PackageVersion>
-      <Authors>Akini Xu</Authors>
-      <Owners>Akini Xu</Owners>
-      <Description>vaptcha sdk dotnetcore </Description>
-      <PackageTags>vaptcha,dotnetcore,sdk</PackageTags>
-      <RepositoryType>git</RepositoryType>
-      <PackageProjectUrl>https://github.com/iBestRead/VAPTCHA-dotnetcore-v3</PackageProjectUrl>
-      <RepositoryUrl>https://github.com/iBestRead/VAPTCHA-dotnetcore-v3</RepositoryUrl>
-      <ProjectUrl>https://github.com/iBestRead/VAPTCHA-dotnetcore-v3</ProjectUrl>
-    </PropertyGroup>
-
-    <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
-        <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.5" />
-        <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="3.1.5" />
-        <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.5" />
-        <PackageReference Include="Microsoft.Extensions.Http" Version="3.1.5" />
-        <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-    </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="3.1.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
 
 </Project>

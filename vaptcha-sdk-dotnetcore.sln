@@ -5,7 +5,6 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.solution Items", "00.solution Items", "{C7E9D12F-392D-4D94-A2A0-B583A5CCE644}"
 	ProjectSection(SolutionItems) = preProject
-		common.props = common.props
 		README.md = README.md
 	EndProjectSection
 EndProject
