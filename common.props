@@ -9,9 +9,4 @@
     <NoWarn>$(NoWarn);CS1591;NU1603</NoWarn>
   </PropertyGroup>
 
-  <PropertyGroup>
-    <Version>0.1.0</Version>
-    <RepositoryUrl>https://github.com/iBestRead/VAPTCHA-dotnetcore-v3</RepositoryUrl>
-  </PropertyGroup>
-
 </Project>
