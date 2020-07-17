@@ -8,15 +8,14 @@
   </PropertyGroup>
 
   <PropertyGroup>
+    <Description>方便asp.net core 项目集成 `VAPTCHA` 验证码.</Description>
+    <AssemblyTitle>Vaptcha Sdk</AssemblyTitle>
+    <Authors>AkiniX</Authors>
+    <AssemblyName>Vaptcha</AssemblyName>
     <PackageId>vaptcha.sdk.dotnetcore</PackageId>
-    <Version>0.1.0</Version>
-    <Authors>Akini Xu</Authors>
-    <Description>vaptcha sdk dotnetcore </Description>
-    <PackageTags>vaptcha,dotnetcore,sdk</PackageTags>
-    <RepositoryType>git</RepositoryType>
+    <PackageTags>vaptcha;sdk;dotnet;dotnetcore</PackageTags>
     <PackageProjectUrl>https://github.com/iBestRead/VAPTCHA-dotnetcore-v3</PackageProjectUrl>
     <RepositoryUrl>https://github.com/iBestRead/VAPTCHA-dotnetcore-v3</RepositoryUrl>
-    <ProjectUrl>https://github.com/iBestRead/VAPTCHA-dotnetcore-v3</ProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
