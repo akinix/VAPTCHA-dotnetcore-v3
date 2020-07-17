@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Version>0.1.1</Version>
+    <Version>0.1.2</Version>
     <Description>VAPTCHA SDK for dotnet core</Description>
     <AssemblyTitle>Vaptcha Sdk</AssemblyTitle>
     <Authors>AkiniX</Authors>
@@ -19,6 +19,7 @@
     <PackageTags>vaptcha;sdk;dotnet;dotnetcore</PackageTags>
     <PackageProjectUrl>https://github.com/iBestRead/VAPTCHA-dotnetcore-v3</PackageProjectUrl>
     <RepositoryUrl>https://github.com/iBestRead/VAPTCHA-dotnetcore-v3</RepositoryUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/iBestRead/VAPTCHA-dotnetcore-v3/master/assets/iBestRead-Logo-128.png</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
