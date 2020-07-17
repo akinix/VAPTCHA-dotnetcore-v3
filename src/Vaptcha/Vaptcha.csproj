@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
+    <Version>0.1.0</Version>
     <Description>方便asp.net core 项目集成 `VAPTCHA` 验证码.</Description>
     <AssemblyTitle>Vaptcha Sdk</AssemblyTitle>
     <Authors>AkiniX</Authors>
