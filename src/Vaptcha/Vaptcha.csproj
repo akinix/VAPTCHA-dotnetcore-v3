@@ -11,7 +11,6 @@
     <PackageId>vaptcha.sdk.dotnetcore</PackageId>
     <Version>0.1.0</Version>
     <Authors>Akini Xu</Authors>
-    <Owners>Akini Xu</Owners>
     <Description>vaptcha sdk dotnetcore </Description>
     <PackageTags>vaptcha,dotnetcore,sdk</PackageTags>
     <RepositoryType>git</RepositoryType>
