@@ -1,5 +1,8 @@
 # VAPTCHA SDK for dotnetcore
 
+[![Build](https://github.com/iBestRead/VAPTCHA-dotnetcore-v3/workflows/Build/badge.svg)](https://github.com/iBestRead/VAPTCHA-dotnetcore-v3/actions?query=workflow%3A%22Build%22)
+[![NuGetVersion](https://img.shields.io/nuget/v/vaptcha.sdk.dotnetcore)](https://www.nuget.org/packages/vaptcha.sdk.dotnetcore)
+
 方便asp.net core 项目集成 `VAPTCHA` 验证码.
 
 # 安装Nuget包
